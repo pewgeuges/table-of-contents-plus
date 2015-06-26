@@ -112,6 +112,11 @@ I will never ask for any form of reward or compensation.  Helping others achieve
 
 == Changelog ==
 
+= 150x =
+* Released: xxxx 2015
+* Simplified the translation duty by moving the help material to the plugin's website.
+* Updated translation file.
+
 = 1505 =
 * Released: 2 May 2015
 * Huge thanks to Jason for an updated Simplified Chinese translation.

@@ -4,13 +4,15 @@ jQuery(document).ready(function($) {
 	$('.tab_content:first').show(); // show first tab content
 
 	$('ul#tabbed-nav li').click(function(event) {
-		event.preventDefault();
-		$('ul#tabbed-nav li').removeClass('active');
-		$(this).addClass('active');
-		$('.tab_content').hide();
+		if ( !$(this).hasClass('url') ) {
+			event.preventDefault();
+			$('ul#tabbed-nav li').removeClass('active');
+			$(this).addClass('active');
+			$('.tab_content').hide();
 
-		var activeTab = $(this).find('a').attr('href');
-		$(activeTab).fadeIn();
+			var activeTab = $(this).find('a').attr('href');
+			$(activeTab).fadeIn();
+		}
 	});
 	
 	$('h3 span.show_hide a').click(function(event) {
