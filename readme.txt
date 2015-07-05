@@ -2,8 +2,8 @@
 Contributors: conjur3r
 Tags: table of contents, indexes, toc, sitemap, cms, options, list, page listing, category listing
 Requires at least: 3.2
-Tested up to: 4.2.1
-Stable tag: 1505
+Tested up to: 4.2.2
+Stable tag: 1507
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,7 @@ Custom post types are supported, however, auto insertion works only when the_con
 
 = Available Languages =
 * Australian English (default)
+* Danish - [Cupunu](http://cupunu.dk/)
 * Dutch - [Renee](http://101themes.com/)
 * French - Jean-Michel Duriez
 * German - [Ben](http://blog.bmarwell.de/)
@@ -112,8 +113,9 @@ I will never ask for any form of reward or compensation.  Helping others achieve
 
 == Changelog ==
 
-= 150x =
-* Released: xxxx 2015
+= 1507 =
+* Released: 5 July 2015
+* Added Danish translation courtesy of [Cupunu](http://cupunu.dk/)
 * Simplified the translation duty by moving the help material to the plugin's website.
 * Updated translation file.
 
